@@ -9,9 +9,3 @@ def test_not_equal(a, b):
     
 def test_is_in(collection, item):
     assert item in collection, "{0} does not contain {1}".format(collection, item)
-
-test_is_in([1,2,3,4,5], 5)
-test_not_equal(3, 2)
-test_between_limits(1, 3, 9)
-
-print("All tests passed")
